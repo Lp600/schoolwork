@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport"content="width=device-width,initial-scale=1.0">
+ <title>Login Form</title>
+</head>
+<style>
+    body{
+        background-color:black;
+        color:white;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    
+    h1,p{
+        text-align: center;
+    }
+    .tmp{}
+    form{
+        border:1px solid yellow;
+        border-radius:6px;
+        min-height:550px;
+        background-image:url(assignment4goodflower.jpg);
+        background-repeat:no repeat;
+        background-size:cover;
+    }
+    
+    input[type="text",type="password"]{
+        border:none;
+        
+    }
+    .btn1,.btn2{
+        border:none;
+        padding:5px;
+        border-radius:3px;
+    }
+    .btn1{
+        background-color:blue;
+    }
+    .btn2{
+        background-color:red;
+    }
+</style>
+<body>
+    
+ <form name="login" method="post" acton="login.php" >
+ 
+ <h1>LOGIN FORM</h1>
+ 
+ <div class="tmp"><p>Name : <input type="text" 
+ name="username" 
+ placeholder="Enter your name"/></p>
+ <br/> 
+ <p>Password : <input type="password" name="password" placeholder="password"/></p
+<br/> 
+<p style="text-align: center;"><button class="btn1"type="submit" name="submit" value = "" >
+ LOGIN
+ </button>
+ <button class="btn2"type="reset" name="reset">CANCEL</button></p>
+ <p><a href="reset.html"> Forgot Your Password?</a></p>
+ </div>
+
+ </form>
+</body>
+</html>
