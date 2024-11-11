@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Documentquestionnaire</title>
+ <style>
+ .login{
+     border: 3px solid purple;
+     max-width: max-content;
+     height:700px;
+     padding: 20px 30px;
+     margin: 10px auto;
+     background-color:cyan;
+ }
+.btns{
+    display:block;
+    margin:0 auto;
+    text-align:center;
+}
+ #year{
+     color:blue;
+ }
+ #hows{
+     color:green;
+ }
+ 
+ .search{
+     width:300px;
+     padding:5px;
+     display:block;
+     margin:0 auto;
+     border-radius:20px;
+ }
+ 
+ </style>
+</head>
+<body >
+ <div class="login">
+ <form >
+ <label for="email"> Enter Your Email: </label>
+ <input type="email" name="email" id="email" />
+ <br/>
+ <label for="password"> Enter Your Password: </label>
+ <input type="password" name="password" id="password" />
+ <br/>
+ <p>Gender</p>
+ <p><input type="radio" name="options" value="m"> Male <input type="radio" name="options" value="f">Female <input type="radio" name="options" value="b">Rather not say</p>
+ <p>
+     <label for="year">Year of Study</label>
+     <select id="year">
+         <option value="y1">Year 1</option>
+         <option value="y2">Year 2</option>
+         <option value="y3">Year 3</option>
+         <option value="y4">Year 4</option>
+         <option value="y5">Year 5</option>
+         <option value="y6">Year 6</option>
+ </select>
+ <p>
+     <label for="hows">How did you get to know of this :</label>
+     <select id="hows" multiple type="checkbox">
+         <option value="social">Social Media</option>
+         <option value="ads">Ads</option>
+         <option value="friend">A Friend</option>
+         <option value="poster">Poster</option>
+     </select>
+ </p>
+ </p>
+<p class="btns"> <button class="lgn">Login</button>
+ <button class="sbn">Submit</button></p>
+ </form>
+ <p><input class="search" type="search" placeholder="Search"></p>
+ <a style="text-align:center;" href="https://github.com/Lp600">my github</a>
+ </div> 
+ <p style="text-align: center;"><small>let's play</small></p>
+ </body>
+ </html>
